@@ -14,7 +14,8 @@ public class UsuarioLogin {
 
     private String token;
 
-    private String Tipo; // Adicionado para usuário adm ou normal.
+    // Adicionado para usuário adm ou normal.
+    private String Tipo; 
 
     // Getters and Setters
 

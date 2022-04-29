@@ -19,8 +19,8 @@ public class SwaggerConfig {
 	public OpenAPI springBlogPessoalOpenAPI() {
 		return new OpenAPI()
 				.info(new Info()
-						.title("Projeto Blog Pessoal")
-						.description("Projeto Blog Pessoal - Generation")
+						.title("TechDay")
+						.description("TechDay - Tecnologia")
 						.version("v0.0.1")
 						.license(new License()
 								.name("https://linktr.ee/BruRaptor")
@@ -31,7 +31,7 @@ public class SwaggerConfig {
 								.email("brunoribeirokyo@gmail.com")))
 				.externalDocs(new ExternalDocumentation()
 						.description("Github")
-						.url("https://github.com/BruRaptor/BlogPessoal-Deploy"));
+						.url("https://github.com/BruRaptor/Back-End-TechDay.git"));
 	}
 
 	private ApiResponse createApiResponse(String message) {

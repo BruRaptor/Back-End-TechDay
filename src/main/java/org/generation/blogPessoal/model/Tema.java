@@ -13,7 +13,7 @@ import javax.validation.constraints.NotNull;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "tb_temas")
+@Table(name = "tabela_temas")
 public class Tema {
 
 	@Id
@@ -27,6 +27,8 @@ public class Tema {
 	@JsonIgnoreProperties("tema")
 	private List<Postagem> postagem;
 
+	// Getters and Setters
+	
 	public long getId() {
 		return id;
 	}
